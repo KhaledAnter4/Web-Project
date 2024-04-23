@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+
+    background-color:#F6F4E8;
+    width: 100%;
+    position:fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+.logo{
+
+    text-decoration: none;
+    color:#b59250;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.8em;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+    padding-left: 30px;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.navigation a:hover {
+    color: #b59250;
+}
+
+section {
+    padding :100px 200px;
+}
+
+.main
+{
+    width :100%;
+    min-height:100vh;
+    display :flex;
+    align-items :center;
+    background :url(Loro.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main h2 {
+    color: #000;  
+    font-size: 1.4em; 
+    font-weight: 550;
+    margin-bottom:50px;
+}
+
+.main h2 span {
+    color:#223633;
+    font-size:2.5em;
+    font-weight:400;
+} 
+
+.main h3 {
+    color: #000;
+    display: flex;
+    justify-content:flex-end;
+    font-size:1.2em;
+    font-weight:0px;
+    letter-spacing:1px;
+    margin-top:5px;
+    margin-bottom:10px;
+}
+
+.main-btn {
+    color: white;
+    text-align: center;
+    background-color: #1c5d4e;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover {
+    background-color: rgb(12, 52, 37);
+    transform: scale(1.1);
+    
+}
+
+.social a {
+    color: #2e4538;
+    font-size: 1.6em;
+    padding-right: 70px;
+}
+
+.title {
+    display: flex;
+    justify-content:center;
+    font-size: 1.95em;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #b59250;
+    width: 21.25em;
+    box-shadow: 0 5px 10px rgba(184,134,11, 1.5);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover {
+    transform: scale(1.1) ;
+}
+
+.icon  {
+    color:whitesmoke ;
+    font-size: 8em;
+    text-align: center;
+
+}
+
+.info{
+    text-align: center;
+
+}
+
+.info h3 {
+    color: #000000;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin: 10px;
+
+
+}
+
+.contact .icon {
+    color:whitesmoke;
+
+}
+
+
+.contact .info h3{
+    color: #000;
+}
+
+.contact .info p {
+    font-size: 1.5em;
+
+}
